@@ -75,7 +75,7 @@ public class DBhelper extends SQLiteOpenHelper {
         return data;
     }
 
-    public int addstatus( String value,String email,String dept,String des,String cate) {
+    public int addstatus( String value,String email,String dept,String des,String cate) {//
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues cv = new ContentValues();
         cv.put(col6, value);
